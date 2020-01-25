@@ -32,6 +32,8 @@ class ViewController: UIViewController {
 //            imc = weight / (height * height)
             imc = weight / pow(height, 2)
             showResults()
+        } else {
+            viResult.isHidden = true
         }
     }
     
