@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
     @IBAction func showNext(_ sender: UIButton) {
         switch lbUnit.text! {
             case "Temperatura":
@@ -45,11 +44,10 @@ class ViewController: UIViewController {
         convert(nil)
     }
     
-    
     @IBAction func convert(_ sender: UIButton?) {
         if let sender = sender {
             if sender == btUnit1 {
-                btUnit2.alpha = 0.5
+                btUnit2.alpha = 0.5 // alpha - determina o nível de transparência do componente
             } else {
                 btUnit1.alpha = 0.5
             }
@@ -72,6 +70,8 @@ class ViewController: UIViewController {
     }
     
     func calcTemperature() {
+        // guard let também efetua unwrap no Optional, mas deixa disponível para todo o resto do bloco de código
+        // if let só deixa disponível em seu próprio bloco
         guard let temperature = Double(tfValue.text!) else {return}
         
         if btUnit1.alpha == 1.0 {

@@ -132,10 +132,7 @@
                             <constraint firstItem="8KC-10-O6N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vyd-vx-zWy"/>
                             <constraint firstItem="ST0-gC-ZuK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aZD-Dw-0My"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8KC-10-O6N" secondAttribute="trailing" constant="16" id="doV-fB-9EO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ST0-gC-ZuK" secondAttribute="trailing" constant="16" id="fFx-dC-ZVf"/>
-                            <constraint firstItem="ST0-gC-ZuK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kBf-lc-O4I"/>
                             <constraint firstItem="ikh-45-Nmd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="prz-lF-hz5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ST0-gC-ZuK" secondAttribute="bottom" constant="30" id="sfo-hw-Lv6"/>
                             <constraint firstItem="ikh-45-Nmd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uhV-F3-QXf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
